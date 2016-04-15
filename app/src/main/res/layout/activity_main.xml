@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试 ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS"/>
+
+    <Button
+        android:id="@+id/test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试 REQUEST_IGNORE_BATTERY_OPTIMIZATIONS 和 ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+
+    <Button
+        android:id="@+id/showstates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看当前状态"/>
+    <Button
+        android:id="@+id/alarmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动定时任务"/>
+    <Button
+        android:id="@+id/data_saver_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getRestrictBackgroundStatus"/>
+</LinearLayout>
